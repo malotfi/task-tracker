@@ -1,0 +1,12 @@
+
+{
+    "scripts": {
+        "frontend:install": "cd frontend && npm install",
+		"frontend:serve": "cd frontend && npm run serve",
+        "backend:install": "cd backend && npm install",
+        "backend:dev": "cd backend && npm run dev",
+        "db:up": "cd backend && docker compose up -d",
+        "db:down": "cd backend && docker compose down"
+    },
+    "devDependencies": {}
+}
